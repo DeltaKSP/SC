@@ -15,17 +15,17 @@ groupadd GRP_SEC
 
 echo "Criando usuários..."
 
-useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
-useradd maria -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
-useradd joao -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
+useradd kaique -m -s /bin/bash -p $(openssl passwd -crypt 0516) -G GRP_ADM
+useradd michael -m -s /bin/bash -p $(openssl passwd -crypt 0516) -G GRP_ADM
+useradd lucas -m -s /bin/bash -p $(openssl passwd -crypt 0516) -G GRP_ADM
 
-useradd debora -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
-useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
-useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
+useradd Igor -m -s /bin/bash -p $(openssl passwd -crypt 2410) -G GRP_VEN
+useradd Jeferson -m -s /bin/bash -p $(openssl passwd -crypt 2410) -G GRP_VEN
+useradd Pedro -m -s /bin/bash -p $(openssl passwd -crypt 2410) -G GRP_VEN
 
-useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
-useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
-useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
+useradd Julia -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
+useradd Carol -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
+useradd Gabriela -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 
 echo "Especificando permissões dos diretórios...."
 
@@ -38,5 +38,5 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
-echo "Fim....."
+echo "Fim, Obrigado :)....."
 
